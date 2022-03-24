@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff1e0;
+  font-family: "Bebas Neue", cursive;
+}
+
+.contentHeader {
+  height: 170px;
+  width: auto;
+  background-color: black;
+  background-image: url(/img/siluetabici.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 10%;
+}
+.contentHeader .headerMain {
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  height: 170px;
+}
+.contentHeader .headerMain .headerText {
+  font-family: "Bebas Neue", cursive;
+  font-size: 40px;
+  color: aliceblue;
+  margin: 50px 50px 10px;
+}
+.contentHeader .headerMain .headerNav ul {
+  display: flex;
+  margin: 95px 50px;
+  max-height: 170px;
+  font-size: 20px;
+  color: antiquewhite;
+  list-style-type: none;
+  gap: 60px;
+}
+.contentHeader .headerMain .headerNav ul li {
+  text-align: center;
+  font-family: "Bebas Neue", cursive;
+}
+.contentHeader .headerMain .headerNav ul li a {
+  text-align: center;
+  text-decoration: none;
+  color: antiquewhite;
+}
+.contentHeader .headerMain .headerNav ul li p:hover {
+  color: black;
+  padding: 5px 5px 5px;
+  background-color: #cfcfcf;
+  text-shadow: 1px 2px 5px #202020;
+  border-radius: 10%;
+  transition: 0.9s;
+}
+
+.divGris {
+  height: 5px;
+  background-color: #9e999c;
+}
+
+/* EMPIEZA EL MAIN */
+.carousel-inner img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 250%;
+  height: 550px;
+}
+
+.slide .carousel-control-prev {
+  left: 25%;
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  color: #fff;
+  text-align: center;
+  background: 0 0;
+  border: 0;
+  opacity: 0.5;
+  transition: opacity 0.15s ease;
+}
+
+.slide .carousel-control-next {
+  right: 40%;
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  color: #fff;
+  text-align: center;
+  background: 0 0;
+  border: 0;
+  opacity: 0.5;
+  transition: opacity 0.15s ease;
+}
+
+.carousel-control-next-icon {
+  background-color: black;
+}
+
+.carouselMain .carousel-control-prev {
+  left: 25%;
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  color: #fff;
+  text-align: center;
+  background: 0 0;
+  border: 0;
+  opacity: 0.5;
+  transition: opacity 0.15s ease;
+}
+
+.carouselMain .carousel-control-next {
+  right: 25%;
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  color: #fff;
+  text-align: center;
+  background: 0 0;
+  border: 0;
+  opacity: 0.5;
+  transition: opacity 0.15s ease;
+}
+
+.carousel-control-next-icon {
+  background-color: black;
+}
+
+/*# sourceMappingURL=estilos.css.map */
