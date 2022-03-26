@@ -401,14 +401,14 @@ header {
 /*INSTAGRAM*/
 
 .postInstagram {
-  background-color: #9e999c;
+  background-color: #c9c9c9;
 }
 
 .instagramHeader {
   display: flex;
   justify-content: start;
   align-items: center;
-  padding: 10px 0px 5px 250px;
+  padding: 10px 0px 5px 285px;
   h5 {
     font-family: "Fira Sans Condensed", sans-serif;
     padding-left: 5px;
@@ -467,26 +467,61 @@ header {
 
 .instagramBody {
   display: flex;
-  width: 50%;
-  margin-left: auto;
-  margin-right: auto;
-  gap: 30px;
   overflow: hidden;
-  background-color: #000000;
+  width: 70%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 5px;
+  gap: 20px;
   a {
     display: flex;
   }
-  img {
-    width: 100%;
-    height: 100%;
+  .ig_uno{
+    overflow: hidden;
+    background-color: black;
+    img{
+      width: 100%;
+      height: 100%;
+    };
   }
 }
 
-.instagramBody:hover img {
+.ig_uno:hover img {
+  transition: 1s;
+  transform: scale(1.1);
+  opacity: 0.5;
+  
+}
+/*IMAGEN DOS*/
+.ig_dos{
+  overflow: hidden;
+  img{
+    width: 100%;
+    height: 110%;
+  }
+}
+
+.ig_dos:hover img {
   transition: 1s;
   transform: scale(1.1);
   opacity: 0.5;
 }
+/*IMAGEN TRES*/
+.ig_tres{
+  overflow: hidden;
+  background-color: black;
+  img{
+    width: 100%;
+    height: 100%;
+  }
+}
+.ig_tres:hover img {
+  transition: 1s;
+  transform: scale(1.1);
+  opacity: 0.5;
+}
+
+
 /*FOOTER*/
 footer {
   background-color: #818181;
